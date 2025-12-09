@@ -97,3 +97,72 @@ class Prestamo:
             libro.disponible = not prestamo.fecha_devolucion  # Si hay devolución, disponible=True
             return prestamo
         return None
+
+
+
+# -----------------------------------------------------------
+#   CLASE PARA MANEJO DE LIBROS Y BÚSQUEDAS
+# -----------------------------------------------------------
+
+class Biblioteca:
+    def __init__(self):
+        self.libros = []  # Lista de objetos Libro
+
+    # ---------- MÉTODOS DE BÚSQUEDA ----------
+    def buscar_por_titulo(self, titulo: str):
+        """Devuelve una lista de libros cuyo título coincide parcial."""
+        return [libro for libro in self.libros if titulo.lower() in libro.titulo.lower()]
+
+    def buscar_por_autor(self, autor: str):
+        """Devuelve libros que coinciden parcialmente con el autor."""
+        return [libro for libro in self.libros if autor.lower() in libro.autor.lower()]
+
+    def buscar_por_genero(self, genero: str):
+        """Devuelve libros del género especificado."""
+        return [libro for libro in self.libros if genero.lower() in libro.genero.lower()]
+
+    def buscar_por_año(self, año: int):
+        """Devuelve libros del año indicado."""
+        return [libro for libro in self.libros if libro.año == año]
+
+    def buscar_disponibles(self):
+        """Devuelve solo libros disponibles para préstamo."""
+        return [libro for libro in self.libros if libro.disponible]
+
+    def agregar_libro(self, libro: Libro):
+        """Añade un libro a la colección."""
+        self.libros.append(libro)
+
+
+
+# -----------------------------------------------------------
+#   GRAFO SIMPLE PARA LIBROS RELACIONADOS (RECOMENDACIONES)
+# -----------------------------------------------------------
+
+class GrafoLibros:
+    def __init__(self):
+        self.adyacencia = {}   # {titulo : [titulos relacionados]}
+
+    def agregar_libro(self, libro: Libro):
+        """Agrega un nodo al grafo si no existe."""
+        if libro.titulo not in self.adyacencia:
+            self.adyacencia[libro.titulo] = []
+
+    def relacionar(self, libro1: Libro, libro2: Libro):
+        """Crea una relación simple entre dos libros (bidireccional)."""
+        t1 = libro1.titulo
+        t2 = libro2.titulo
+
+        if t1 not in self.adyacencia:
+            self.adyacencia[t1] = []
+        if t2 not in self.adyacencia:
+            self.adyacencia[t2] = []
+
+        if t2 not in self.adyacencia[t1]:
+            self.adyacencia[t1].append(t2)
+        if t1 not in self.adyacencia[t2]:
+            self.adyacencia[t2].append(t1)
+
+    def recomendaciones(self, libro: Libro):
+        """Devuelve una lista de títulos recomendados para un libro."""
+        return self.adyacencia.get(libro.titulo, [])

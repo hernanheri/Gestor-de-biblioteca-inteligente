@@ -1,0 +1,270 @@
+{
+  "El Señor de los Anillos: La Comunidad del Anillo": [
+    "Canción de hielo y fuego: Juego de tronos",
+    "La Rueda del Tiempo: El ojo del mundo",
+    "La Tierra Media: El Hobbit"
+  ],
+  "Harry Potter y la piedra filosofal": [
+    "El Nombre del Viento",
+    "Mistborn: El Imperio Final",
+    "Las Crónicas de Narnia: El león, la bruja y el armario",
+    "El Aprendiz de Asesino"
+  ],
+  "Canción de hielo y fuego: Juego de tronos": [
+    "El Señor de los Anillos: La Comunidad del Anillo",
+    "La Rueda del Tiempo: El ojo del mundo",
+    "La Tierra Media: El Hobbit"
+  ],
+  "La Rueda del Tiempo: El ojo del mundo": [
+    "El Señor de los Anillos: La Comunidad del Anillo",
+    "Canción de hielo y fuego: Juego de tronos",
+    "La Tierra Media: El Hobbit"
+  ],
+  "El Nombre del Viento": [
+    "Harry Potter y la piedra filosofal",
+    "Mistborn: El Imperio Final",
+    "Las Crónicas de Narnia: El león, la bruja y el armario",
+    "El Aprendiz de Asesino"
+  ],
+  "La Tierra Media: El Hobbit": [
+    "El Señor de los Anillos: La Comunidad del Anillo",
+    "Canción de hielo y fuego: Juego de tronos",
+    "La Rueda del Tiempo: El ojo del mundo"
+  ],
+  "La Primera Ley: La voz de las espadas": [],
+  "Mistborn: El Imperio Final": [
+    "Harry Potter y la piedra filosofal",
+    "El Nombre del Viento",
+    "Las Crónicas de Narnia: El león, la bruja y el armario",
+    "El Aprendiz de Asesino"
+  ],
+  "Las Crónicas de Narnia: El león, la bruja y el armario": [
+    "Harry Potter y la piedra filosofal",
+    "El Nombre del Viento",
+    "Mistborn: El Imperio Final",
+    "El Aprendiz de Asesino"
+  ],
+  "El Aprendiz de Asesino": [
+    "Harry Potter y la piedra filosofal",
+    "El Nombre del Viento",
+    "Mistborn: El Imperio Final",
+    "Las Crónicas de Narnia: El león, la bruja y el armario"
+  ],
+  "Dune": [
+    "Fundación"
+  ],
+  "Fundación": [
+    "Dune"
+  ],
+  "Neuromante": [
+    "Snow Crash (Hielo Negro)"
+  ],
+  "1984": [
+    "Fahrenheit 451"
+  ],
+  "Fahrenheit 451": [
+    "1984"
+  ],
+  "El juego de Ender": [],
+  "La mano izquierda de la oscuridad": [],
+  "Soy leyenda": [],
+  "Hyperion": [],
+  "Snow Crash (Hielo Negro)": [
+    "Neuromante"
+  ],
+  "Alicia en el País de las Maravillas": [
+    "Pinocho (Las aventuras de Pinocho)",
+    "Peter Pan (Peter and Wendy)",
+    "Matilda",
+    "El Grúfalo",
+    "Donde viven los monstruos (Where the Wild Things Are)",
+    "La oruga muy hambrienta (The Very Hungry Caterpillar)",
+    "Charlie y la fábrica de chocolate",
+    "El gato ensombrerado (The Cat in the Hat)"
+  ],
+  "Pinocho (Las aventuras de Pinocho)": [
+    "Alicia en el País de las Maravillas",
+    "Peter Pan (Peter and Wendy)",
+    "Matilda",
+    "El Grúfalo",
+    "Donde viven los monstruos (Where the Wild Things Are)",
+    "La oruga muy hambrienta (The Very Hungry Caterpillar)",
+    "Charlie y la fábrica de chocolate",
+    "El gato ensombrerado (The Cat in the Hat)"
+  ],
+  "Peter Pan (Peter and Wendy)": [
+    "Alicia en el País de las Maravillas",
+    "Pinocho (Las aventuras de Pinocho)",
+    "Matilda",
+    "El Grúfalo",
+    "Donde viven los monstruos (Where the Wild Things Are)",
+    "La oruga muy hambrienta (The Very Hungry Caterpillar)",
+    "Charlie y la fábrica de chocolate",
+    "El gato ensombrerado (The Cat in the Hat)"
+  ],
+  "El Principito": [],
+  "Matilda": [
+    "Alicia en el País de las Maravillas",
+    "Pinocho (Las aventuras de Pinocho)",
+    "Peter Pan (Peter and Wendy)",
+    "El Grúfalo",
+    "Donde viven los monstruos (Where the Wild Things Are)",
+    "La oruga muy hambrienta (The Very Hungry Caterpillar)",
+    "Charlie y la fábrica de chocolate",
+    "El gato ensombrerado (The Cat in the Hat)"
+  ],
+  "El Grúfalo": [
+    "Alicia en el País de las Maravillas",
+    "Pinocho (Las aventuras de Pinocho)",
+    "Peter Pan (Peter and Wendy)",
+    "Matilda",
+    "Donde viven los monstruos (Where the Wild Things Are)",
+    "La oruga muy hambrienta (The Very Hungry Caterpillar)",
+    "Charlie y la fábrica de chocolate",
+    "El gato ensombrerado (The Cat in the Hat)"
+  ],
+  "Donde viven los monstruos (Where the Wild Things Are)": [
+    "Alicia en el País de las Maravillas",
+    "Pinocho (Las aventuras de Pinocho)",
+    "Peter Pan (Peter and Wendy)",
+    "Matilda",
+    "El Grúfalo",
+    "La oruga muy hambrienta (The Very Hungry Caterpillar)",
+    "Charlie y la fábrica de chocolate",
+    "El gato ensombrerado (The Cat in the Hat)"
+  ],
+  "Drácula": [
+    "Frankenstein o el moderno Prometeo",
+    "El resplandor",
+    "It (Eso)",
+    "Cementerio de animales",
+    "El exorcista",
+    "El gato negro y otros cuentos",
+    "Bird Box (A ciegas)"
+  ],
+  "Frankenstein o el moderno Prometeo": [
+    "Drácula",
+    "El resplandor",
+    "It (Eso)",
+    "Cementerio de animales",
+    "El exorcista",
+    "El gato negro y otros cuentos",
+    "Bird Box (A ciegas)"
+  ],
+  "El resplandor": [
+    "Drácula",
+    "Frankenstein o el moderno Prometeo",
+    "It (Eso)",
+    "Cementerio de animales",
+    "El exorcista",
+    "El gato negro y otros cuentos",
+    "Bird Box (A ciegas)"
+  ],
+  "It (Eso)": [
+    "Drácula",
+    "Frankenstein o el moderno Prometeo",
+    "El resplandor",
+    "Cementerio de animales",
+    "El exorcista",
+    "El gato negro y otros cuentos",
+    "Bird Box (A ciegas)"
+  ],
+  "Cementerio de animales": [
+    "Drácula",
+    "Frankenstein o el moderno Prometeo",
+    "El resplandor",
+    "It (Eso)",
+    "El exorcista",
+    "El gato negro y otros cuentos",
+    "Bird Box (A ciegas)"
+  ],
+  "El exorcista": [
+    "Drácula",
+    "Frankenstein o el moderno Prometeo",
+    "El resplandor",
+    "It (Eso)",
+    "Cementerio de animales",
+    "El gato negro y otros cuentos",
+    "Bird Box (A ciegas)"
+  ],
+  "Otra vuelta de tuerca": [],
+  "El gato negro y otros cuentos": [
+    "Drácula",
+    "Frankenstein o el moderno Prometeo",
+    "El resplandor",
+    "It (Eso)",
+    "Cementerio de animales",
+    "El exorcista",
+    "Bird Box (A ciegas)"
+  ],
+  "La casa de los espíritus": [],
+  "Bird Box (A ciegas)": [
+    "Drácula",
+    "Frankenstein o el moderno Prometeo",
+    "El resplandor",
+    "It (Eso)",
+    "Cementerio de animales",
+    "El exorcista",
+    "El gato negro y otros cuentos"
+  ],
+  "Crimen y castigo": [
+    "Orgullo y prejuicio",
+    "Madame Bovary",
+    "La metamorfosis",
+    "El Gran Gatsby"
+  ],
+  "Orgullo y prejuicio": [
+    "Crimen y castigo",
+    "Madame Bovary",
+    "La metamorfosis",
+    "El Gran Gatsby"
+  ],
+  "Madame Bovary": [
+    "Crimen y castigo",
+    "Orgullo y prejuicio",
+    "La metamorfosis",
+    "El Gran Gatsby"
+  ],
+  "La metamorfosis": [
+    "Crimen y castigo",
+    "Orgullo y prejuicio",
+    "Madame Bovary",
+    "El Gran Gatsby"
+  ],
+  "El Gran Gatsby": [
+    "Crimen y castigo",
+    "Orgullo y prejuicio",
+    "Madame Bovary",
+    "La metamorfosis"
+  ],
+  "La oruga muy hambrienta (The Very Hungry Caterpillar)": [
+    "Alicia en el País de las Maravillas",
+    "Pinocho (Las aventuras de Pinocho)",
+    "Peter Pan (Peter and Wendy)",
+    "Matilda",
+    "El Grúfalo",
+    "Donde viven los monstruos (Where the Wild Things Are)",
+    "Charlie y la fábrica de chocolate",
+    "El gato ensombrerado (The Cat in the Hat)"
+  ],
+  "Charlie y la fábrica de chocolate": [
+    "Alicia en el País de las Maravillas",
+    "Pinocho (Las aventuras de Pinocho)",
+    "Peter Pan (Peter and Wendy)",
+    "Matilda",
+    "El Grúfalo",
+    "Donde viven los monstruos (Where the Wild Things Are)",
+    "La oruga muy hambrienta (The Very Hungry Caterpillar)",
+    "El gato ensombrerado (The Cat in the Hat)"
+  ],
+  "El gato ensombrerado (The Cat in the Hat)": [
+    "Alicia en el País de las Maravillas",
+    "Pinocho (Las aventuras de Pinocho)",
+    "Peter Pan (Peter and Wendy)",
+    "Matilda",
+    "El Grúfalo",
+    "Donde viven los monstruos (Where the Wild Things Are)",
+    "La oruga muy hambrienta (The Very Hungry Caterpillar)",
+    "Charlie y la fábrica de chocolate"
+  ]
+}

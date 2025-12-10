@@ -1,0 +1,362 @@
+[
+  {
+    "titulo": "El Señor de los Anillos: La Comunidad del Anillo",
+    "autor": "John Ronald Reuel Tolkien",
+    "genero": "Fantasía épica",
+    "categoria": "Fantasía épica",
+    "year": 1954,
+    "disponible": true
+  },
+  {
+    "titulo": "Harry Potter y la piedra filosofal",
+    "autor": "Joanne Kathleen Rowling",
+    "genero": "Fantasía",
+    "categoria": "Fantasía",
+    "year": 1997,
+    "disponible": true
+  },
+  {
+    "titulo": "Canción de hielo y fuego: Juego de tronos",
+    "autor": "George Raymond Richard Martin",
+    "genero": "Fantasía épica",
+    "categoria": "Fantasía épica",
+    "year": 1996,
+    "disponible": true
+  },
+  {
+    "titulo": "La Rueda del Tiempo: El ojo del mundo",
+    "autor": "Robert Jordan",
+    "genero": "Fantasía épica",
+    "categoria": "Fantasía épica",
+    "year": 1990,
+    "disponible": true
+  },
+  {
+    "titulo": "El Nombre del Viento",
+    "autor": "Patrick Rothfuss",
+    "genero": "Fantasía",
+    "categoria": "Fantasía",
+    "year": 2007,
+    "disponible": true
+  },
+  {
+    "titulo": "La Tierra Media: El Hobbit",
+    "autor": "John Ronald Reuel Tolkien",
+    "genero": "Fantasía épica",
+    "categoria": "Fantasía épica",
+    "year": 1937,
+    "disponible": true
+  },
+  {
+    "titulo": "La Primera Ley: La voz de las espadas",
+    "autor": "Joe Abercrombie",
+    "genero": "Fantasía oscura",
+    "categoria": "Fantasía oscura",
+    "year": 2006,
+    "disponible": true
+  },
+  {
+    "titulo": "Mistborn: El Imperio Final",
+    "autor": "Brandon Sanderson",
+    "genero": "Fantasía",
+    "categoria": "Fantasía",
+    "year": 2006,
+    "disponible": true
+  },
+  {
+    "titulo": "Las Crónicas de Narnia: El león, la bruja y el armario",
+    "autor": "Clive Staples Lewis",
+    "genero": "Fantasía",
+    "categoria": "Fantasía",
+    "year": 1950,
+    "disponible": true
+  },
+  {
+    "titulo": "El Aprendiz de Asesino",
+    "autor": "Robin Hobb",
+    "genero": "Fantasía",
+    "categoria": "Fantasía",
+    "year": 1995,
+    "disponible": true
+  },
+  {
+    "titulo": "Dune",
+    "autor": "Franklin Patrick Herbert Jr.",
+    "genero": "Ciencia ficción",
+    "categoria": "Ciencia ficción",
+    "year": 1965,
+    "disponible": true
+  },
+  {
+    "titulo": "Fundación",
+    "autor": "Isaac Asimov",
+    "genero": "Ciencia ficción",
+    "categoria": "Ciencia ficción",
+    "year": 1951,
+    "disponible": true
+  },
+  {
+    "titulo": "Neuromante",
+    "autor": "William Ford Gibson",
+    "genero": "Ciberpunk",
+    "categoria": "Ciberpunk",
+    "year": 1984,
+    "disponible": true
+  },
+  {
+    "titulo": "1984",
+    "autor": "George Orwell",
+    "genero": "Distopía",
+    "categoria": "Distopía",
+    "year": 1949,
+    "disponible": true
+  },
+  {
+    "titulo": "Fahrenheit 451",
+    "autor": "Ray Douglas Bradbury",
+    "genero": "Distopía",
+    "categoria": "Distopía",
+    "year": 1953,
+    "disponible": true
+  },
+  {
+    "titulo": "El juego de Ender",
+    "autor": "Orson Scott Card",
+    "genero": "Ciencia ficción militar",
+    "categoria": "Ciencia ficción militar",
+    "year": 1985,
+    "disponible": true
+  },
+  {
+    "titulo": "La mano izquierda de la oscuridad",
+    "autor": "Ursula Kroeber Le Guin",
+    "genero": "Ciencia ficción social",
+    "categoria": "Ciencia ficción social",
+    "year": 1969,
+    "disponible": true
+  },
+  {
+    "titulo": "Soy leyenda",
+    "autor": "Richard Burton Matheson",
+    "genero": "Horror / Ciencia ficción",
+    "categoria": "Horror / Ciencia ficción",
+    "year": 1954,
+    "disponible": true
+  },
+  {
+    "titulo": "Hyperion",
+    "autor": "Daniel Mark 'Dan' Simmons",
+    "genero": "Ciencia ficción épica",
+    "categoria": "Ciencia ficción épica",
+    "year": 1989,
+    "disponible": true
+  },
+  {
+    "titulo": "Snow Crash (Hielo Negro)",
+    "autor": "Neal Town Stephenson",
+    "genero": "Ciberpunk",
+    "categoria": "Ciberpunk",
+    "year": 1992,
+    "disponible": true
+  },
+  {
+    "titulo": "Alicia en el País de las Maravillas",
+    "autor": "Lewis Carroll",
+    "genero": "Literatura infantil",
+    "categoria": "Literatura infantil",
+    "year": 1865,
+    "disponible": true
+  },
+  {
+    "titulo": "Pinocho (Las aventuras de Pinocho)",
+    "autor": "Carlo Collodi",
+    "genero": "Literatura infantil",
+    "categoria": "Literatura infantil",
+    "year": 1883,
+    "disponible": true
+  },
+  {
+    "titulo": "Peter Pan (Peter and Wendy)",
+    "autor": "James Matthew Barrie",
+    "genero": "Literatura infantil",
+    "categoria": "Literatura infantil",
+    "year": 1911,
+    "disponible": true
+  },
+  {
+    "titulo": "El Principito",
+    "autor": "Saint-Exupéry",
+    "genero": "Literatura infantil / Filosófica",
+    "categoria": "Literatura infantil / Filosófica",
+    "year": 1943,
+    "disponible": true
+  },
+  {
+    "titulo": "Matilda",
+    "autor": "Roald Dahl",
+    "genero": "Literatura infantil",
+    "categoria": "Literatura infantil",
+    "year": 1988,
+    "disponible": true
+  },
+  {
+    "titulo": "El Grúfalo",
+    "autor": "Julia Donaldson",
+    "genero": "Literatura infantil",
+    "categoria": "Literatura infantil",
+    "year": 1999,
+    "disponible": true
+  },
+  {
+    "titulo": "Donde viven los monstruos (Where the Wild Things Are)",
+    "autor": "Maurice Bernard Sendak",
+    "genero": "Literatura infantil",
+    "categoria": "Literatura infantil",
+    "year": 1963,
+    "disponible": true
+  },
+  {
+    "titulo": "Drácula",
+    "autor": "Bram Stoker",
+    "genero": "Terror",
+    "categoria": "Terror",
+    "year": 1897,
+    "disponible": true
+  },
+  {
+    "titulo": "Frankenstein o el moderno Prometeo",
+    "autor": "Mary Wollstonecraft Shelley",
+    "genero": "Terror",
+    "categoria": "Terror",
+    "year": 1818,
+    "disponible": true
+  },
+  {
+    "titulo": "El resplandor",
+    "autor": "Stephen Edwin King",
+    "genero": "Terror",
+    "categoria": "Terror",
+    "year": 1977,
+    "disponible": true
+  },
+  {
+    "titulo": "It (Eso)",
+    "autor": "Stephen Edwin King",
+    "genero": "Terror",
+    "categoria": "Terror",
+    "year": 1986,
+    "disponible": true
+  },
+  {
+    "titulo": "Cementerio de animales",
+    "autor": "Stephen Edwin King",
+    "genero": "Terror",
+    "categoria": "Terror",
+    "year": 1983,
+    "disponible": true
+  },
+  {
+    "titulo": "El exorcista",
+    "autor": "William Peter Blatty",
+    "genero": "Terror",
+    "categoria": "Terror",
+    "year": 1971,
+    "disponible": true
+  },
+  {
+    "titulo": "Otra vuelta de tuerca",
+    "autor": "Henry James",
+    "genero": "Terror psicológico",
+    "categoria": "Terror psicológico",
+    "year": 1898,
+    "disponible": true
+  },
+  {
+    "titulo": "El gato negro y otros cuentos",
+    "autor": "Edgar Poe",
+    "genero": "Terror",
+    "categoria": "Terror",
+    "year": 1843,
+    "disponible": true
+  },
+  {
+    "titulo": "La casa de los espíritus",
+    "autor": "Isabel Allende Llona",
+    "genero": "Realismo mágico",
+    "categoria": "Realismo mágico",
+    "year": 1982,
+    "disponible": true
+  },
+  {
+    "titulo": "Bird Box (A ciegas)",
+    "autor": "Josh Malerman",
+    "genero": "Terror",
+    "categoria": "Terror",
+    "year": 2014,
+    "disponible": true
+  },
+  {
+    "titulo": "Crimen y castigo",
+    "autor": "Fiódor Mijáilovich Dostoyevski",
+    "genero": "Literatura clásica",
+    "categoria": "Literatura clásica",
+    "year": 1866,
+    "disponible": true
+  },
+  {
+    "titulo": "Orgullo y prejuicio",
+    "autor": "Jane Austen",
+    "genero": "Literatura clásica",
+    "categoria": "Literatura clásica",
+    "year": 1813,
+    "disponible": true
+  },
+  {
+    "titulo": "Madame Bovary",
+    "autor": "Gustave Flaubert",
+    "genero": "Literatura clásica",
+    "categoria": "Literatura clásica",
+    "year": 1857,
+    "disponible": true
+  },
+  {
+    "titulo": "La metamorfosis",
+    "autor": "Franz Kafka",
+    "genero": "Literatura clásica",
+    "categoria": "Literatura clásica",
+    "year": 1915,
+    "disponible": true
+  },
+  {
+    "titulo": "El Gran Gatsby",
+    "autor": "Francis Scott Key Fitzgerald",
+    "genero": "Literatura clásica",
+    "categoria": "Literatura clásica",
+    "year": 1925,
+    "disponible": true
+  },
+  {
+    "titulo": "La oruga muy hambrienta (The Very Hungry Caterpillar)",
+    "autor": "Eric Carle",
+    "genero": "Literatura infantil",
+    "categoria": "Literatura infantil",
+    "year": 1969,
+    "disponible": true
+  },
+  {
+    "titulo": "Charlie y la fábrica de chocolate",
+    "autor": "Roald Dahl",
+    "genero": "Literatura infantil",
+    "categoria": "Literatura infantil",
+    "year": 1964,
+    "disponible": false
+  },
+  {
+    "titulo": "El gato ensombrerado (The Cat in the Hat)",
+    "autor": "Dr. Seuss",
+    "genero": "Literatura infantil",
+    "categoria": "Literatura infantil",
+    "year": 1957,
+    "disponible": true
+  }
+]

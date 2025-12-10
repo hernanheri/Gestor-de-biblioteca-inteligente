@@ -8,6 +8,8 @@ from rich.align import Align
 from pathlib import Path
 import json
 import random
+from src.persistencia import cargar_libros as _persist_cargar_libros, guardar_datos, cargar_grafo, guardar_grafo
+from src.clases import Libro
 
 # -----------------------
 # Config colores pastel
@@ -26,21 +28,31 @@ LIBROS_FILE = DATA_DIR / "libros.json"
 
 console = Console()
 
+
 # -----------------------
-# Util: cargar / guardar libros
+# Util: delegar persistencia al módulo src.persistencia
 # -----------------------
 def cargar_libros():
-    if not LIBROS_FILE.exists():
-        return []
-    try:
-        with LIBROS_FILE.open("r", encoding="utf-8") as f:
-            return json.load(f)
-    except Exception:
-        return []
+    libros_obj = _persist_cargar_libros()
+    return [l.to_dict() for l in libros_obj]
 
-def guardar_libros(libros):
-    with LIBROS_FILE.open("w", encoding="utf-8") as f:
-        json.dump(libros, f, indent=2, ensure_ascii=False)
+
+def guardar_libros_from_dicts(libros_dicts):
+    objetos = []
+    for d in libros_dicts:
+        genero = d.get("genero", d.get("categoria", ""))
+        try:
+            year = int(d.get("year")) if d.get("year") not in (None, "") else None
+        except Exception:
+            year = None
+        objetos.append(Libro(d.get("titulo"), d.get("autor"), genero, year, d.get("disponible", True)))
+    guardar_datos("libros.json", objetos)
+
+def asegurar_grafo_agrega(titulo):
+    g = cargar_grafo("grafo.json") or {}
+    if titulo not in g:
+        g[titulo] = []
+        guardar_grafo("grafo.json", g)
 
 # -----------------------
 # UI: Mostrar panel principal
@@ -96,7 +108,7 @@ def ver_libros():
             str(i),
             libro.get("titulo", "-"),
             libro.get("autor", "-"),
-            str(libro.get("anio", "-")),
+            str(libro.get("year", "-")),
             libro.get("categoria", "-")
         )
 
@@ -128,7 +140,7 @@ def buscar_libro():
         tabla.add_row(
             libro.get("titulo", "-"),
             libro.get("autor", "-"),
-            str(libro.get("anio", "-")),
+            str(libro.get("year", "-")),
             libro.get("categoria", "-")
         )
 
@@ -160,13 +172,14 @@ def agregar_libro():
         console.print("[bold red]El título no puede estar vacío.[/bold red]")
         return
     autor = Prompt.ask(f"[{MORADO}]Autor[/]").strip() or "Desconocido"
-    anio = Prompt.ask(f"[{MORADO}]Año[/]").strip() or ""
+    year = Prompt.ask(f"[{MORADO}]Año[/]").strip() or ""
     categoria = Prompt.ask(f"[{MORADO}]Categoría[/]").strip() or "General"
 
-    libro = {"titulo": titulo, "autor": autor, "anio": anio, "categoria": categoria}
+    libro_dict = {"titulo": titulo, "autor": autor, "year": year, "categoria": categoria}
     libros = cargar_libros()
-    libros.append(libro)
-    guardar_libros(libros)
+    libros.append(libro_dict)
+    guardar_libros_from_dicts(libros)
+    asegurar_grafo_agrega(titulo)
     console.print(Panel(f"[bold green]Libro agregado:[/bold green] {titulo}", border_style="green"))
 
 # -----------------------

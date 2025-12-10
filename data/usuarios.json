@@ -1,0 +1,32 @@
+[
+  {
+    "nombre": "Heriberto Diaz",
+    "id": "24690705",
+    "tipo": "estudiante"
+  },
+  {
+    "nombre": "Dulce",
+    "id": "13579246",
+    "tipo": "estudiante"
+  },
+  {
+    "nombre": "Doce",
+    "id": "98765432",
+    "tipo": "estudiante"
+  },
+  {
+    "nombre": "Carlos",
+    "id": "56473829",
+    "tipo": "estudiante"
+  },
+  {
+    "nombre": "Fabrizio",
+    "id": "10293847",
+    "tipo": "profesor"
+  },
+  {
+    "nombre": "Jaime",
+    "id": "67584930",
+    "tipo": "profesor"
+  }
+]

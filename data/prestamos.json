@@ -1,0 +1,104 @@
+[
+  {
+    "usuario": {
+      "nombre": "Heriberto Diaz",
+      "id": "24690705",
+      "tipo": "estudiante"
+    },
+    "libro": {
+      "titulo": "Dune",
+      "autor": "Franklin Patrick Herbert Jr.",
+      "genero": "Ciencia ficción",
+      "categoria": "Ciencia ficción",
+      "year": 1965,
+      "disponible": true
+    },
+    "fecha_prestamo": "2025-12-09 22:59:18",
+    "fecha_devolucion": null
+  },
+  {
+    "usuario": {
+      "nombre": "Dulce",
+      "id": "13579246",
+      "tipo": "estudiante"
+    },
+    "libro": {
+      "titulo": "Charlie y la fábrica de chocolate",
+      "autor": "Roald Dahl",
+      "genero": "Literatura infantil",
+      "categoria": "Literatura infantil",
+      "year": 1964,
+      "disponible": false
+    },
+    "fecha_prestamo": "2025-12-10 00:08:11",
+    "fecha_devolucion": "2025-12-10 00:10:32"
+  },
+  {
+    "usuario": {
+      "nombre": "Doce",
+      "id": "98765432",
+      "tipo": "estudiante"
+    },
+    "libro": {
+      "titulo": "Charlie y la fábrica de chocolate",
+      "autor": "Roald Dahl",
+      "genero": "Literatura infantil",
+      "categoria": "Literatura infantil",
+      "year": 1964,
+      "disponible": false
+    },
+    "fecha_prestamo": "2025-12-10 00:10:32",
+    "fecha_devolucion": "2025-12-10 00:13:50"
+  },
+  {
+    "usuario": {
+      "nombre": "Heriberto Diaz",
+      "id": "24690705",
+      "tipo": "estudiante"
+    },
+    "libro": {
+      "titulo": "Charlie y la fábrica de chocolate",
+      "autor": "Roald Dahl",
+      "genero": "Literatura infantil",
+      "categoria": "Literatura infantil",
+      "year": 1964,
+      "disponible": false
+    },
+    "fecha_prestamo": "2025-12-10 00:13:50",
+    "fecha_devolucion": null
+  },
+  {
+    "usuario": {
+      "nombre": "Doce",
+      "id": "98765432",
+      "tipo": "estudiante"
+    },
+    "libro": {
+      "titulo": "Charlie y la fábrica de chocolate",
+      "autor": "Roald Dahl",
+      "genero": "Literatura infantil",
+      "categoria": "Literatura infantil",
+      "year": 1964,
+      "disponible": false
+    },
+    "fecha_prestamo": "2025-12-10 00:17:52",
+    "fecha_devolucion": null
+  },
+  {
+    "usuario": {
+      "nombre": "Jaime",
+      "id": "67584930",
+      "tipo": "profesor"
+    },
+    "libro": {
+      "titulo": "Charlie y la fábrica de chocolate",
+      "autor": "Roald Dahl",
+      "genero": "Literatura infantil",
+      "categoria": "Literatura infantil",
+      "year": 1964,
+      "disponible": false
+    },
+    "fecha_prestamo": "2025-12-10 00:19:11",
+    "fecha_devolucion": null
+  }
+]
